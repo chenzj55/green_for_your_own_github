@@ -1,0 +1,10 @@
+document.body.innerHTML = document.body.innerHTML.replace("6 contributions", "2333 contributions")
+var arr = [22,5,1,1,5,2,5,2,5,2,5,2,5,1,1,1,3,1,22,1,4,3,3,4,2,2,1,2,2,1,2,2,1,2,2,4,3,3,4,1,21,1,4,1,1,1,5,2,5,7,1,1,6,1,6,1,27,9,6,2,6,3,6,2,6,9,21,8,2,1,2,2,2,1,2,2,2,1,2,2,2,1,2,2,2,1,2,1,1,2,1,2,15];
+for (var j = 0; j < arr.length/2; j++) {
+    for (var i = 0; i < arr[2*j]; i++) {
+        document.body.innerHTML = document.body.innerHTML.replace("var(--color-calendar-graph-day-bg)", "var(--color-calendar-graph-day-L4-bg)")
+    }
+    for (var i = 0; i < arr[2*j+1]; i++) {
+        document.body.innerHTML = document.body.innerHTML.replace("var(--color-calendar-graph-day-bg)", "var(--color-calendar-graph-day-L3-bg)")
+    }
+}
